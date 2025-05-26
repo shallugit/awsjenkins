@@ -16,6 +16,7 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <maven.site.plugin.version>3.9.1</maven.site.plugin.version>
+    <maven.compiler.release>21</maven.compiler.release> <!-- Use release for JDK 9+ -->
   </properties>
 
   <modules>
@@ -104,8 +105,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <release>21</release>
         </configuration>
       </plugin>
 
@@ -203,7 +203,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.6.3</maven>
+    <maven>3.6.2</maven>
   </prerequisites>
 
 </project>
