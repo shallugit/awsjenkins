@@ -33,6 +33,14 @@
         <version>8.0.0.M1</version> <!-- use the version from your parent POM pluginManagement -->
       </plugin>
 
+             <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
