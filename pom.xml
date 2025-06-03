@@ -204,7 +204,8 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
-    </dependencyManagement>
+    </dependencies>
+  </dependencyManagement>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
